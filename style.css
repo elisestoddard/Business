@@ -9,7 +9,7 @@
     color: whitesmoke;
     text-align: center;
 }
-body{
+body.index{
     background-image: url(./images/Capture.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@ nav{
 }
 .posi{
 align-content: space-between;
-padding-left: 125px;
+padding-left: 12%;
 padding-bottom: 50px;
 }
 .fest{
@@ -90,4 +90,72 @@ footer{
 
 footer a{
     color: white;
+}
+div.container{
+    display: grid;
+    gap: 150px 10px;
+    width: fit-content;
+    grid-template-columns: [first] 1fr [line2] 1fr [line3];
+    grid-template-rows: [one] 1fr [two] 1fr [three];
+    justify-items: stretch;
+    align-items: center;
+
+}
+.item-1{
+
+    grid-column: first;
+    grid-row: one;
+    height: 500px; width: 550px;
+}
+.item-2{
+        grid-column: line2;
+        grid-row: one;
+        height: 500px; width: 550px;
+}
+.item-3{
+
+        grid-column: line3;
+        grid-row: one;
+        height: 500px; width: 550px;
+}
+.item-4{
+        grid-column: first;
+        grid-row: two;        
+        height: 500px; width: 550px;
+}
+.item-5{
+
+    grid-column: line2;
+    grid-row: two;
+    height: 500px; width: 550px;
+}
+.item-6{
+    grid-column: line3;
+    grid-row: two;        
+    height: 500px; width: 550px;
+}
+.item-7{
+    grid-column: first;
+    grid-row: three;        
+    height: 500px; width: 550px;
+}
+.item-8{
+
+grid-column: line2;
+grid-row: three;
+height: 500px; width: 550px;
+}
+.item-9{
+grid-column: line3;
+grid-row: three;        
+height: 500px; width: 550px;
+}
+p{
+    font-family: main;
+    color: wheat;
+    font-size: small;
+}
+h5{
+    font-family: main;
+    color: wheat;  
 }
